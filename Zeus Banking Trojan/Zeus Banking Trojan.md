@@ -16,4 +16,5 @@ https://github.com/ytisf/theZoo/tree/master/malware/Binaries/ZeusBankingVersion_
 ## Basic Analysis
 
 Checked for suspicious file with VirusTotal. Concluded that **62/75 security vendors had flaged it as malicious**.
+
 ![virustotal scan](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/virustotal.jpg)
