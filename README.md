@@ -4,3 +4,9 @@ A malware analysis lab composed of multiple virtual machines designed to automat
 This project provides a step-by-step setup of a secure virtual environment for analyzing malwares. It involves configuring a Windows VM with analysis tools alongside **REMnux** to perform static and dynamic analysis, network monitoring, and rule-based detection. Ideal for cybersecurity professionals, researchers, and enthusiasts seeking hands-on experience in understanding malware behavior and impact.
 
 
+# Tools Used
+1. FlareVM
+2. REMnux
+
+# Malwares Analysed
+1. [Zeus Banking Trojan]()
