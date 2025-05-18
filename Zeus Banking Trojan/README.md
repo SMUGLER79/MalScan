@@ -13,8 +13,20 @@ Downloaded it from here:
 https://github.com/ytisf/theZoo/tree/master/malware/Binaries/ZeusBankingVersion_26Nov2013
 
 # Analysis
-## Basic Analysis
+## Basic Static Analysis
 
 Checked for suspicious file with VirusTotal. Concluded that **62/75 security vendors had flaged it as malicious**.
 
 ![virustotal scan](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/virustotal.jpg)
+
+
+I also used **PeStudio** to further analyse this malware file.
+
+![pestudio file](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/pestudio.png)
+![string flag](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/pestudio%20string%20flag.png)
+![strings cmp](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/pestudio%20string.png)
+
+In the library tab, found some DLLs that the malware would import. Libraries:
+* SHLWAPI.dll
+* KERNEL32.dll
+* USER32.dll
