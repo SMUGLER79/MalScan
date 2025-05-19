@@ -22,3 +22,4 @@ A dedicated, isolated network was configured for this lab to ensure the malware 
 
 # Malwares Analysed
 1. [Zeus Banking Trojan]([https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan.md](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/Zeus%20Banking%20Trojan.md))
+2. ...
