@@ -1,4 +1,4 @@
-# Zeus Banking Trojan
+![image](https://github.com/user-attachments/assets/62691567-53e7-4c4d-a81d-22862b822f34)# Zeus Banking Trojan
 
 This section focuses on analyzing the Zeus Banking Trojan. We begin with background information and an overview of the tools used. The analysis workflow includes provisioning a secure lab, acquiring and labeling the malware sample, and conducting both static and dynamic analysis. The process concludes with detailed reporting and identification of indicators of compromise (IOCs). It targets banking credentials and financial data using stealthy techniques like keylogging and form grabbing. Zeus is recognized for its persistence and ability to evade detection while exfiltrating sensitive user information.
 
@@ -43,4 +43,6 @@ Analysis from cutter and REMnux:
 
 To further analyze msimg32.dll, we connect the machine to the internet and upload the file to VirusTotal for scanning. VirusTotal aggregates results from multiple antivirus engines to determine if the file is malicious. Found   59/70 vendors as flagged.
 
+## Advanced Dynamic Analysis
 
+Further Used **Yara** to anaylse the malware more.
