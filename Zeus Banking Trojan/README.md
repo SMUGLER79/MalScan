@@ -39,7 +39,7 @@ Analysis from cutter and REMnux:
 
 ![cutter ass](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/cutter%20ass.png)
 ![invoice.exe on run](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/invoice%20run.png)
-![downloads from invoice.exe](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/invoice%20run.png)
+![downloads from invoice.exe](https://github.com/SMUGLER79/MalScan---Malware-Analysis-Lab/blob/main/Zeus%20Banking%20Trojan/download%20from%20invoice.png)
 
 To further analyze msimg32.dll, we connect the machine to the internet and upload the file to VirusTotal for scanning. VirusTotal aggregates results from multiple antivirus engines to determine if the file is malicious. Found   59/70 vendors as flagged.
 
